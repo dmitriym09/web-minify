@@ -1,11 +1,11 @@
-minify
+web-minify
 ==============
 
 Library for post-processing http response. For example, you can use it for minify or for other changes in the response body.
 
 # Basic Usage
 
-minify - middleware function. You should create a handler function and specify the Content-Type response.
+Web minify - middleware function. You should create a handler function and specify the Content-Type response.
 
 Best manual for programmist is an example of source code =) 
 
@@ -21,7 +21,7 @@ const postcss = require('postcss');
 const precss = require('precss');
 const autoprefixer = require('autoprefixer');
 
-const minify = require('minify');
+const minify = require('web-minify');
 
 app.use(minify([
   {
