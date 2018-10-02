@@ -11,7 +11,7 @@ Best manual for programmist is an example of source code =)
 
 ## Example
 
-Minify css and html with html-minifier, csso, postcss, precss, autoprefixer for Express:
+Minify css and html with [html-minifier](https://github.com/kangax/html-minifier.git), [csso](https://github.com/css/csso.git), [postcss](https://github.com/postcss/postcss.git), [precss](https://github.com/jonathantneal/precss.git), [autoprefixer](https://github.com/postcss/autoprefixer.git) for [Express](https://github.com/expressjs/express.git):
 
 ```javascript
 const htmlminify = require('html-minifier').minify;
