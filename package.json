@@ -1,0 +1,32 @@
+{
+  "name": "minify",
+  "version": "0.0.1",
+  "description": "Library for minify and postprocessing request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --check-leaks --reporter dot"
+  },
+  "keywords": [
+    "express",
+    "minify",
+    "postprocessing",
+    "uglifyjs",
+    "html"
+  ],
+  "author": "dmitriym09",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmitriym09/minify.git"
+  },
+  "devDependencies": {
+    "async": "^2.6.1",
+    "html-minifier": "^3.5.20",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0",
+    "autoprefixer": "^9.1.5",
+    "csso": "^3.5.1",
+    "postcss": "^7.0.4",
+    "precss": "^3.1.2"
+  }
+}
