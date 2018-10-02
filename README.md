@@ -3,6 +3,12 @@ web-minify
 
 Library for post-processing http response. For example, you can use it for minify or for other changes in the response body.
 
+# Installation
+
+```
+npm i @dmitriym09/web-minify --save
+```
+
 # Basic Usage
 
 Web minify - middleware function. You should create a handler function and specify the Content-Type response.
